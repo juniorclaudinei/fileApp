@@ -97,6 +97,7 @@ This is the most important section of this readme. There is a lot of stuff that 
 * Parameters - Implement parameters in this code to allow the user to run all the functions through the terminal without surf through the menus.
 * Help section - Implement a help section
 * Configuration script - Implement an install/configuration script to deal with all the requirements installation (MySQL, Rclone, etc...)
+* Errors handle - I have to implement lots of errors handlers, but for now, errors are thrown on the screen on purpose.
 
 * (I am not sure about this one) - Create a Docker Image with all the environment configured.
 * (I am not sure about this one) - Make this piece of software as a service (maybe an API) and do some integration with other software.

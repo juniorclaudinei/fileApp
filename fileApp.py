@@ -1,10 +1,14 @@
-## This application aims to add an extra layer of security when storing files in public clouds like Google Drive, MS OneDrive and so on.
+## This application adds an extra layer of security when storing files in public clouds like Google Drive, MS OneDrive and so on.
 ## The application is still in the Alpha and has a lot to be improved, but at the moment it is functional.
-## Each part of the code has its own explanation.
+## Each part of the code has its own explanation (kinda).
 ##
 ## PLEASE, considere take a look at the Git RoadMap section!!!
 ##
 ## Note: Some of the fuctions here could be coded together, but they are separated to make future implementations easier. =D
+##
+## Author: Claudinei Junior
+## Date: 25/Aug/2020
+## File: fileApp.py
 ##
 ## Enjoy!
 
@@ -15,7 +19,7 @@ from mysql.connector import errorcode
 
 ## This part of the code deals with the database file configuration
 
-mysqlConfigFile = "/Users/junior/Desktop/fileApp/connection.conf" ## Insert the full path
+mysqlConfigFile = ".../fileApp/connection.conf" ## Insert the full path
 print(mysqlConfigFile)
 
 configParser = configparser.ConfigParser()
